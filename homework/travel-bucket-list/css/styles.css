@@ -1,0 +1,69 @@
+body {
+	background: rgb(217, 217, 217);
+	margin: 0;
+}
+
+#container { 
+	width: 1000px;
+	margin: 0 auto;
+	background: white;
+	padding: 15px;
+	text-align: center;
+}
+
+#container p {
+	text-align: left;
+	margin: 20px;
+}
+
+#top-links a {
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 18px;
+	color: black;
+	padding: 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+	background: rgb(9, 202, 159);
+	color: white;
+	margin: 0;
+	padding: 20px 0;
+	font-size: 28px;
+}
+
+#container h2, h3, h4 {
+	font-size: 28px;
+}
+
+#footer p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Helvetica;
+}
+
+#maui {
+	background: rgb(196, 222, 252);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#reykjavik {
+	background: rgb(194, 242, 227);
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#aspen {
+	background: rgb(196, 222, 252);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
