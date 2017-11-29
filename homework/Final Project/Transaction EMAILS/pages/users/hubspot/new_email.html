@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../../css/main.css">
+  </head>
+  <body>
+    <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center">
+          <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width: 640px; padding: 20px;">
+            <tr>
+              <td height="150">
+                <img src="https://cdn2.hubspot.net/hubfs/1853157/HubSpot%20emails/saa_logo.png" alt="Study Abroad Apartments logo" width="150" height="auto">
+              </td>
+            </tr>
+            <tr>
+              <td class="big-row">
+                <p>Hi {{contact.firstname}},</p>
+                <!--
+                {% widget_block rich_text "paragraph_1" overrideable=True, label="Section" %}
+                {% widget_attribute "html" %}
+                -->
+                <p>Write the content here. Keep it as short as possible.</p>
+                <a class="button" href="https://www.studyabroadapartments.com/" target="_blank">Need a button?</a>
+                <!--
+                {% end_widget_attribute %}
+                {% end_widget_block %}
+                -->
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <!--
+                {% widget_block rich_text "paragraph_2" overrideable=True, label="Section" %}
+                {% widget_attribute "html" %}
+                -->
+                <p>
+                  We're here to help if you need it. Please visit our <a href="https://support.studyabroadapartments.com/hc/en-us">support page</a> for more info or <a href="mailto:info@studyabroadapartments.com">contact us</a>.
+                </p>
+                <p>Thanks,</p>
+                <p>Write your name here.</p>
+                <!--
+                {% end_widget_attribute %}
+                {% end_widget_block %}
+                -->
+              </td>
+            </tr>
+            <tr>
+              <td class="big-row" align="center">
+                <a class="social-icon" href="https://www.facebook.com/studyabroadapartments/" target="_blank">
+                  <img src="https://cdn2.hubspot.net/hubfs/1853157/SendGrid%20emails/facebook.png" alt="Facebook" width="45" height="auto">
+                </a>
+                <a class="social-icon" href="https://twitter.com/StudyAbroadAPTS" target="_blank">
+                  <img src="https://cdn2.hubspot.net/hubfs/1853157/SendGrid%20emails/twitter.png" alt="Twitter" width="45" height="auto">
+                </a>
+                <a class="social-icon" href="https://www.instagram.com/studyabroadapartments/" target="_blank">
+                  <img src="https://cdn2.hubspot.net/hubfs/1853157/SendGrid%20emails/instagram.png" alt="Instagram" width="45" height="auto">
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="footer" align="center">
+                <p>Sent with &hearts; from {{site_settings.company_name}}</p>
+                <p>
+                  <a>
+                    {{site_settings.company_street_address_1}}, {{site_settings.company_city}}, {{site_settings.company_state}}, {{site_settings.company_zip}}, {{site_settings.company_country}}
+                  </a>
+                </p>
+                <p>
+                  <a data-unsubscribe="true" href="{{unsubscribe_link}}" target="_blank">Update email preferences</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
