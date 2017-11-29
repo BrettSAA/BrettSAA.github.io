@@ -1,0 +1,174 @@
+/*
+
+FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+body {
+	margin: 0;
+	width: 100%;
+}
+
+header {
+	background: black;
+	padding: 15px 30px;
+	overflow: hidden;
+	border-bottom: 5px solid yellow;
+
+}
+
+h1 {
+	color: yellow;
+	float: left;
+	margin: 0;
+	font-family: Merriweather;
+	font-size: 24px;
+}
+
+nav {
+	float: right;
+	margin-top: 6px;
+}
+
+nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin: 6px;
+	font-family: sans-serif;
+
+}
+
+.second_head {
+	background: rgb(198, 198, 198);
+	text-align: center;
+	padding: 15px 30px;
+	
+}
+
+.second_head h2 {
+	color: black;
+	margin: 0;
+	font-family: Merriweather;
+	font-style: italic; 
+	font-size: 18px
+}
+
+span.are {
+	border-bottom: 3px solid yellow;
+}
+
+span.taste {
+	color: rgb(152, 150, 150);
+	text-decoration: line-through;
+}
+
+.coworking_pic {
+	background: url(../img/coworking.jpg);
+	overflow: hidden;
+	padding: 10px;
+	height: 300px;
+	background-size: 80%;
+}
+
+.yellow_button {
+	display: block;
+	width: 100%;
+	background: yellow;
+	padding: 10px 15px;
+	border-radius: 6px;
+	font-family: Oswald;
+	font-weight: bold;
+	font-size: 14px;
+
+}
+
+.third_level {
+	background: rgb(238, 238, 238);
+	overflow: auto;
+	padding: 35px 25px;
+
+}
+
+section {
+	width: 30%;
+	border: 2px solid black;
+}
+
+.cta {
+	width: 300px;
+	float: right;
+	background: rgb(227, 222, 221);
+	padding: 20px 20px; 
+	margin-top: 30px;
+	opacity: 0.8;
+	font-family: Source Sans Pro;
+}
+
+.cta_2 {
+	float: left;
+	font-family: Source Sans Pro;
+
+}
+
+.sign_up_now {
+	display: block;
+	width: 100%;
+	background: rgb(198,198,198);
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-family: Oswald;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+
+.find_a_dev {
+	float: left;
+	font-family: Source Sans Pro;
+
+}
+
+.find_designer {
+	float: left;
+	font-family: Source Sans Pro;
+
+}
+
+.start_search {
+	display: block;
+	width: 100%;
+	background: rgb(198,198,198);
+	padding: 10px 15px;
+	font-family: Oswald;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+footer {
+	background: black;
+	padding: 10px;
+	font-family: Source Sans Pro;
+}
+
+footer p {
+	color: white;
+}
+
+h3 {
+	font-family: Oswald;
+}
+
+h4, h5, h6 {
+	font-size: 25px;
+	font-family: Merriweather;
+
+}
+
+
+

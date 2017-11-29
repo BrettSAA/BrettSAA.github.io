@@ -1,0 +1,68 @@
+
+body {
+	margin: 0;
+	background: rgb(222,222,222);
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+h1 {
+	float: left;
+	color: #dd0000;
+	font-size: 48px;
+	font-weight: lighter;
+}
+
+h2 {
+	float: left;
+}
+
+.top_nav {
+	padding: 5px;
+	clear: both;
+	margin: 0 auto;
+	width: 1280px;
+}
+
+.top_nav a {
+	style: inline-block;
+	width: 1280px;
+	text-decoration: none;
+	font-weight: lighter;
+	background: black;
+	color: white;
+	padding: 10px;
+}
+
+.left_content {
+	display: inline-block;
+	float: left;
+	width: 500px;
+}
+
+.right_content {
+	display: inline-block;
+	float: right;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom_nav {
+	clear: both;
+}

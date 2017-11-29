@@ -65,7 +65,11 @@ h2 {
 
  .continue	a {
  	color: red;
+ 	text-decoration: none;
+ 	color: #aa0000;
  }
+
+ 
 
 
 

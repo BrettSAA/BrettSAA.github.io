@@ -1,0 +1,73 @@
+.container {
+	margin: 0 auto;
+	width: 85%;
+}
+
+header {
+	background-color: black;
+	overflow: hidden;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+header h1 {
+	font-size: 35px;
+	float: left;
+	color: white;
+}
+
+header nav {
+	float: right;
+	margin-top: 8px;
+}
+
+header nav a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+#burger {
+	cursor: pointer;
+	padding: 5px;
+}
+
+#burger, #mobile-nav {
+	display: none;
+}
+
+#mobile-nav {
+	position: absolute;
+	width: 100%;
+}
+
+#mobile-nav a { 
+	background: rgb(222,222,222);
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+	color: orange;
+	font-size: 25px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+
+@media screen and (max-width: 950px) {
+	header nav {
+		display: none;
+	}
+
+	#burger {
+		display: block;
+		float: right;
+		margin-top: 5px;
+	}
+}
+
+
+
